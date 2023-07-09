@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "lib": ["es6"],
+        "allowJs": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "inlineSourceMap": true,
+        "resolveJsonModule": true
+    },
+    "compileOnSave": true,
+    "exclude": [
+        "node_modules",
+        "build",
+        "**/__test__/**/*.test.ts",
+        "**/?(*.)+(spec|test).[tj]s?(x)"
+    ]
+}
